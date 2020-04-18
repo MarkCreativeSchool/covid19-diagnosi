@@ -1,4 +1,4 @@
 # デプロイ
 deploy:
-	npm run build:production
+	npm run build
 	firebase deploy
