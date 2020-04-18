@@ -3,52 +3,76 @@
     <Header></Header>
   <div class="site">
     <div class="question">
+      <label>
       <input type="checkbox" v-model="select1" @change="calc" /> 熱は37.5度以上ある
       {{ select1 }}
+      </label>
     </div>
     <div class="question2">
+      <label>
       <input type="checkbox" v-model="select2" @change="calc" /> 匂いの感覚がない
       {{ select2 }}
+      </label>
     </div>
     <div class="question">
+      <label>
       <input type="checkbox" v-model="select3" @change="calc" /> 味の感覚がない
       {{ select3 }}
+      </label>
     </div>
     <div class="question2">
+      <label>
       <input type="checkbox" v-model="select4" @change="calc" /> 喉の痛みや咳などの症状がある
       {{ select4 }}
+      </label>
     </div>
     <div class="question">
+      <label>
       <input type="checkbox" v-model="select5" @change="calc" /> 呼吸困難を感じている
       {{ select5 }}
+      </label>
     </div>
     <div class="question2">
+      <label>
       <input type="checkbox" v-model="select6" @change="calc" /> 鼻水などの症状がある
       {{ select6 }}
+      </label>
     </div>
     <div class="question">
+      <label>
       <input type="checkbox" v-model="select7" @change="calc" /> 胸のあたりに痛みがある
       {{ select7 }}
+      </label>
     </div>
     <div class="question2">
+      <label>
       <input type="checkbox" v-model="select8" @change="calc" /> 腹痛がある
       {{ select8 }}
+      </label>
     </div>
     <div class="question">
+      <label>
       <input type="checkbox" v-model="select9" @change="calc" /> 胃のむかつきや食欲不振が続いている
       {{ select9 }}
+      </label>
     </div>
     <div class="question2">
+      <label>
       <input type="checkbox" v-model="select10" @change="calc" /> 頭痛などの症状がある
       {{ select10 }}
+      </label>
     </div>
     <div class="question">
+      <label>
       <input type="checkbox" v-model="select11" @change="calc" /> 筋肉痛の症状がある（運動や行動以外の事で）
       {{ select11 }}
+      </label>
     </div>
     <div class="question2">
+      <label>
       <input type="checkbox" v-model="select12" @change="calc" /> 非常に疲れていたり、エネルギー不足を感じている
       {{ select12 }}
+      </label> 
     </div>
 
     <div class="result">
